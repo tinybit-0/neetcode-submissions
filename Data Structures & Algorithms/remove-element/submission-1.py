@@ -1,9 +1,9 @@
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         nums.sort()
-        k=0
+        kk=0
         for i in range(len(nums)):
             if nums[i] == val:
                 nums.pop(i)
-        k=len(nums)
-        return k
+        kk=len(nums)
+        return kk
